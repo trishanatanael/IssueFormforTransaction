@@ -41,6 +41,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblCustID
@@ -112,9 +114,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(131, 103);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 25);
+            this.label2.Size = new System.Drawing.Size(161, 25);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Customer ID:";
+            this.label2.Text = "Phone Number:";
             // 
             // button1
             // 
@@ -150,11 +152,29 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "Video Code:";
             // 
-            // Form1
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(369, 593);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 31);
+            this.textBox4.TabIndex = 14;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(131, 599);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 25);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Remarks:";
+            // 
+            // IssueTranWinform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1300, 885);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
@@ -168,7 +188,7 @@
             this.Controls.Add(this.tbxCustID);
             this.Controls.Add(this.btnIssue);
             this.Controls.Add(this.lblCustID);
-            this.Name = "Form1";
+            this.Name = "IssueTranWinform";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -190,6 +210,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label4;
     }
 }
 
