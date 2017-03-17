@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace IssueFormforTransaction
 {
-    public partial class Form1 : Form
+    public partial class IssueTranWinform : Form
     {
-        public Form1()
+        public IssueTranWinform()
         {
             InitializeComponent();
         }
